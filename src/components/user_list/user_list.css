@@ -1,0 +1,13 @@
+.list {
+  list-style-type: numbers;
+  padding: 0;
+  margin: 0;
+}
+
+.list li::marker {
+  color: rgb(170, 170, 170);
+}
+
+li {
+  margin-left: 2em;
+}

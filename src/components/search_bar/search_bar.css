@@ -1,0 +1,10 @@
+.search-bar {
+  width: 100%;
+  height: 35px;
+  margin-bottom: 30px;
+}
+
+.search-bar::placeholder {
+  color: rgb(170, 170, 170);
+  font-size: 1.5em;
+}

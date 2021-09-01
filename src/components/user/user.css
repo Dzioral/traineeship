@@ -1,0 +1,9 @@
+.box {
+  display: flex;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.user-username {
+  color: rgb(170, 170, 170);
+}
