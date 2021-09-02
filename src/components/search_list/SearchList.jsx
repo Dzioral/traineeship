@@ -37,9 +37,9 @@ const SearchList = () => {
 
   return (
     <>
-      <h1>User List</h1>
+      <h1 data-testid='header'>User List</h1>
       <div className='container'>
-        <SearchBar placeholder="Search by user name..." handleChange={(event) => handleChange(event)} />
+        <SearchBar handleChange={(event) => handleChange(event)} />
         <UserList users={filteredUsers} isLoading={isLoading} />
       </div>
     </>
